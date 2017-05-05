@@ -12,7 +12,7 @@ public class Empleado {
 
 	@Id
 	@GeneratedValue
-	private long id;
+	private Long id;
 	private int dni;
 	private String password;
 	private String nombre;
@@ -36,7 +36,7 @@ public class Empleado {
 		this.rol = rol;
 	}
 
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 
