@@ -13,7 +13,7 @@ public class Cliente {
 
 	@Id
 	@GeneratedValue
-	private long id;
+	private Long id;
 	private String nombre;
 	private String direccion;
 	private int telefono;
@@ -28,7 +28,7 @@ public class Cliente {
 		this.ventas = new LinkedList<Venta>(ventas);
 	}
 
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 
